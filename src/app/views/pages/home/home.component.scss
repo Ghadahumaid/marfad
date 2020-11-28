@@ -1,0 +1,63 @@
+.home div{
+    padding: 0px;
+}
+
+h1{
+    color:  #b9773f;
+    font-family: "DIN-Next-LT";
+    font-size: 60px;
+}
+
+h2 {
+  color:  #b9773f;
+
+
+}
+
+
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  /* Boostrap Buttons Styling */
+  
+  .btn-default {
+    font-family: "DINNextLT";
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    border: 2px solid #455040;
+    border-radius: 40px;
+    background: #455040;
+    transition: all 0.3s ease 0s;
+    padding: 5px 20px;
+  }
+  
+  .btn-default:hover {
+    color: #FFF;
+    background: #455040;
+    border: 2px solid #455040;
+  }
+
+.left-side-background{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.right-side-background{
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  z-index: 10;
+}
+
+.bottom-side-background{
+  position: absolute;
+  right: 190px;
+  bottom: 0px;
+  z-index: 10;
+}

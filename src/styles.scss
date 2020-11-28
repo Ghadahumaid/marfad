@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+// Base colors
+$primary_color: #b9773f;
+$secondry_color: #455040; 
+$text_color: #ba2c4d; 
+$back_color: #efe6d8; 
+
+
+// Fonts
+@font-face {
+    font-family: "DIN-Next-LT";
+    src: local("DIN-Next-LT"), url(./assets/fonts/DINNextLTArabic-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "DINNextLT";
+    src: local("DINNextLT"), url(./assets/fonts/DINNextLTArabic-Regular.ttf) format("truetype");
+}
+html, body { min-height: 100%; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;}
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+body {
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #ffffff, #fcf8fb, #fbf0f2, #f9eae5, #efe6d8);
+    background-repeat: no-repeat;
+    font-family: "DINNextLT";
+    height: 100%;
+    width: 100%;
+}
