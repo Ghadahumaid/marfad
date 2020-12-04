@@ -6,6 +6,7 @@ import { from } from 'rxjs';
 //pages
 import { HomeComponent } from './views/pages/home/home.component';
 import { AboutUsComponent } from './views/pages/about-us/about-us.component';
+import { FindUsComponent } from './views/pages/find-us/find-us.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'about-us',
     component: AboutUsComponent
+  },
+  {
+    path: 'find-us',
+    component: FindUsComponent
   },
   {
     path: 'products',

@@ -5,18 +5,22 @@
 h1{
     color:  #b9773f;
     font-family: "DIN-Next-LT";
-    font-size: 60px;
+    font-size: 80px;
+    padding-right: -20;
+padding-top: -50;
 }
 
 h2 {
   color:  #b9773f;
-
-
 }
 
+// .content {
+
+// }
 
 
 .btn {
+  margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -28,7 +32,7 @@ h2 {
     font-size: 16px;
     color: white;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 25px;
     border: 2px solid #455040;
     border-radius: 40px;
     background: #455040;
@@ -52,12 +56,62 @@ h2 {
   position: absolute;
   right: 0px;
   top: 10px;
-  z-index: 10;
+  z-index: 9;
 }
 
 .bottom-side-background{
   position: absolute;
-  right: 190px;
+  right: 250px;
   bottom: 0px;
   z-index: 10;
+}
+
+// app-header {
+//   position: relative;
+//   z-index: 11;
+// }
+
+// header style
+.header{
+  background-image: url("/assets/img/header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 470px;
+}
+
+.menu{
+  position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 40px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'DINNextLT';
+  z-index: 11;
+}
+
+a {
+  display: inline-block;
+  padding: 20px;
+}
+
+.menu :link{
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.menu a:hover{
+color: black;
+text-decoration: none;
+}
+
+.menu :visited{
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }

@@ -14,6 +14,7 @@ import { ProductService } from './services/product.service';
 // import { SubHeaderComponent } from './views/partials/sub-header/sub-header.component';
 import { SubFooterComponent } from './views/partials/sub-footer/sub-footer.component';
 import { SecHeaderComponent } from './views/partials/sec-header/sec-header.component';
+import { FindUsComponent } from './views/pages/find-us/find-us.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SecHeaderComponent } from './views/partials/sec-header/sec-header.compo
     // SubHeaderComponent,
     SubFooterComponent,
     SecHeaderComponent,
+    FindUsComponent,
     
   ],
   imports: [
