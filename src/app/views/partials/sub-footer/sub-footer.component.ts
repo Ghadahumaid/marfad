@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sub-footer.component.scss']
 })
 export class SubFooterComponent implements OnInit {
-
+  msg; 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  changeMsg(){
+    this.msg = 'Thank you';
+  }
 }
