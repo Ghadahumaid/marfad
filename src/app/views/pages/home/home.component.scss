@@ -51,12 +51,16 @@ h2 {
   left: 0px;
   top: 0px;
   z-index: 10;
+  height: 100% ;
+    width: 430px;
 }
 .right-side-background{
   position: absolute;
   right: 0px;
   top: 10px;
   z-index: 9;
+  height: 100% ;
+    width: 400px;
 }
 
 .bottom-side-background{
@@ -64,6 +68,8 @@ h2 {
   right: 250px;
   bottom: 0px;
   z-index: 10;
+  height: 169px;
+  width: 65%;
 }
 
 // app-header {
@@ -114,4 +120,99 @@ text-decoration: none;
 ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+//handle header 
+@media only screen and (min-width: 1445px) and (max-width: 1700px) {
+  .header {
+    height: 550px;
+  }
+}
+
+//handle images
+@media only screen and (min-width: 1445px) and (max-width: 1700px) {
+  .left-side-background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    height: 100%;
+    width: 500px;
+  }
+  .right-side-background{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 9;
+    width: 480px;
+    
+  }
+  
+  .bottom-side-background{
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    z-index: 10;
+    height: 175px;
+    width: 67%;
+  }
+}
+
+@media only screen and (max-width: 1445px) {
+  .left-side-background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    height: 100%;
+    width: 400px;
+  }
+  .right-side-background{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 9;
+    width: 380px;
+    
+  }
+  
+  .bottom-side-background{
+    position: absolute;
+    right: 280px;
+    bottom: 0px;
+    z-index: 10;
+    height: 169px;
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .header {
+    height: 400px;
+  }
+  .left-side-background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    height: 100%;
+    width: 350px;
+  }
+  .right-side-background{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 9;
+    width: 330px;
+    
+  }
+  
+  .bottom-side-background{
+    position: absolute;
+    right: 250px;
+    bottom: 0px;
+    z-index: 10;
+    height: 130px;
+    width: 60%;
+  }
 }
