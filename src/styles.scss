@@ -42,8 +42,13 @@ body {
     width: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p, span{
     font-family: "DIN-Next-LT";
+}
+
+div .row{
+    margin-right: 0px;
+    margin-left: 0px;
 }
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
