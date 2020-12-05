@@ -262,3 +262,33 @@ ul {
     width: 60%;
   }
 }
+
+@media only screen and (max-height: 600px) {
+  .header {
+    height: 300px;
+  }
+  .left-side-background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    height: 100%;
+    width: 280px;
+  }
+  .right-side-background{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 9;
+    width: 260px;
+    
+  }
+  .bottom-side-background{
+    position: absolute;
+    right: 200px;
+    bottom: 0px;
+    z-index: 10;
+    height: 100px;
+    width: 55%;
+  }
+}
