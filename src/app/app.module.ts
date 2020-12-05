@@ -15,6 +15,11 @@ import { ProductService } from './services/product.service';
 import { SubFooterComponent } from './views/partials/sub-footer/sub-footer.component';
 import { SecHeaderComponent } from './views/partials/sec-header/sec-header.component';
 import { FindUsComponent } from './views/pages/find-us/find-us.component';
+import { ContactUsComponent } from './views/pages/contact-us/contact-us.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
+
 
 @NgModule({
   declarations: [
@@ -28,12 +33,14 @@ import { FindUsComponent } from './views/pages/find-us/find-us.component';
     SubFooterComponent,
     SecHeaderComponent,
     FindUsComponent,
+    ContactUsComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProductsModule
+    ProductsModule,
+    NgbModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

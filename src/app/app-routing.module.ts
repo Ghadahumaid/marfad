@@ -1,3 +1,4 @@
+import { ContactUsComponent } from './views/pages/contact-us/contact-us.component';
 // main
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'find-us',
     component: FindUsComponent
+  },
+  {
+    path: 'contact-us',
+    component: ContactUsComponent
   },
   {
     path: 'products',
