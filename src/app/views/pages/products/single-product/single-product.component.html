@@ -1,4 +1,46 @@
-<div>
+<!-- Header -->
+<app-sub-header></app-sub-header>
+
+<div class="pic-header row">
+    <img src="{{productData.productHeader.headerPic}}" width="100%" height="800px">
+    <div class="first-des">
+        <h1><b>{{productData.producrName}}</b></h1>
+        <p>{{productData.productHeader.headerDes}}</p>
+    </div>
+    <div class="features">
+        <img src="assets/icons/Icon-08.png" height="50px" width="50px">زيت عطري<img src="assets/icons/Icon-09.png" height="50px" width="50px">موسيقى
+    </div>
+</div>
+
+<!-- Pics -->
+<div class="row">
+    <div class="col-6 des">
+        <p>{{productData.productPicDes[0].description}}</p>
+    </div>
+    <div class="col-6">
+        <img src="{{productData.productPicDes[0].picPath}}" width="100%" height="800px">
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <img src="{{productData.productPicDes[1].picPath}}" width="100%" height="800px">
+    </div>
+    <div class="col-6 des">
+        <p>{{productData.productPicDes[1].description}}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6 des">
+        <p>{{productData.productPicDes[2].description}}</p>
+    </div>
+    <div class="col-6">
+        <img src="{{productData.productPicDes[2].picPath}}" width="100%" height="800px">
+    </div>
+</div>
+
+
+
+<!-- <div>
     <div class="row">
         <div class="col-3 text-right">
             <img src="assets/icons/Icon-08.png" height="30px" width="30px"><img src="assets/icons/Icon-09.png" height="30px" width="30px">
@@ -14,4 +56,7 @@
         </div>
     </div>
 
-</div>
+</div> -->
+
+<!-- Footer -->
+<app-footer></app-footer>
