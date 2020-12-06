@@ -2,7 +2,7 @@
 <app-sub-header></app-sub-header>
 <!-- <app-breadcrumbs></app-breadcrumbs> -->
 <p style="text-align: right; padding-right: 50px;">
-    <span style="color: #455040; font-size: 18px;">الرئيسية</span>/ <span style="color: #455040; font-size: 26px;">منتجاتنا</span>
+    <span style="color: #455040; font-size: 18px;"><a style="text-decoration: none; color: #455040;" routerLink="/">الرئيسية</a></span>/ <span style="color: #455040; font-size: 26px;">منتجاتنا</span>
 </p>
 
 <div class="page-body">
@@ -12,15 +12,15 @@
             <h1>رجال ألمع</h1>
             <h2><a routerLink="/products/3">عرض المنتج</a></h2>
         </div>
-        <div class="col-8 pic1 text-right">
-            <img src="{{Products[2].productHeader.headerPic}}" width="100%" height="auto">
+        <div class="col-8 pic1 text-right animated fadeInRight">
+            <img class="pro-pic" src="{{Products[2].productHeader.headerPic}}" width="100%" height="auto">
         </div>
     </div>
     <br>
     <br>
     <div class="row p-0" style="margin-right: 0px; margin-left: 0px;">
-        <div class="col-8 pic2 text-left">
-            <img src="{{Products[1].productHeader.headerPic}}" width="100%" height="auto">
+        <div class="col-8 pic2 text-left animated fadeInLeft">
+            <img class="pro-pic" src="{{Products[1].productHeader.headerPic}}" width="100%" height="auto">
         </div>
         <div class="col-4 product-title2">
             <h1>جدة التاريخية</h1>
@@ -34,8 +34,8 @@
             <h1>الدرعية التاريخية</h1>
             <h2><a routerLink="/products/2">عرض المنتج</a></h2>
         </div>
-        <div class="col-8 pic1 text-right">
-            <img src="{{Products[0].productHeader.headerPic}}" width="100%" height="auto">
+        <div class="col-8 pic1 text-right fadeInRight animated">
+            <img class="pro-pic" src="{{Products[0].productHeader.headerPic}}" width="100%" height="auto">
         </div>
     </div>
     

@@ -1,11 +1,11 @@
 <!-- Header -->
 <app-sub-header></app-sub-header>
 <p style="text-align: right; padding-right: 50px;">
-    <span style="color: #455040; font-size: 18px;">الرئيسية</span>/ <span style="color: #455040; font-size: 18px;">منتجاتنا</span>/<span style="color: #455040; font-size: 26px;">{{productData.producrName}}</span>
+    <span style="color: #455040; font-size: 18px;"><a style="text-decoration: none; color: #455040;" routerLink="/">الرئيسية</a></span>/ <span style="color: #455040; font-size: 18px;"><a style="text-decoration: none; color: #455040;" routerLink="/products">منتجاتنا</a></span>/<span style="color: #455040; font-size: 26px;">{{productData.producrName}}</span>
 </p>
 
 <div class="pic-header row" style="margin-right: 0px; margin-left: 0px;">
-    <img src="{{productData.productHeader.headerPic}}" width="100%" height="800px">
+    <img src="{{productData.productHeader.headerPic}}" width="100%" height="auto">
     <div class="first-des">
         <h1><b>{{productData.producrName}}</b></h1>
         <p>{{productData.productHeader.headerDes}}</p>
